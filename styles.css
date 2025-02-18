@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+.post {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+.post-header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.punto {
+    padding: 7px;
+    font-size: 31px;
+}
+.icon-css {
+    font-size: larger;
+    align-items: center;
+}
+.text-HTML {
+    font-size: 15px;
+    font-family: Roboto-type;
+}
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 506px;
+    height: 400px;
+    margin: 10px 0;
+    object-fit: cover;
+}
+.iconHTML {
+    padding: 10px;
+    font-size: 20px;
+}
+.post-icons {
+    font-size: 30px;
+    padding-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 6px 3px 6px;
+}
+.post-body {
+    font-family: Roboto-type;
+    font-size: 14px;
+    padding: 15;
+    margin: -16px 6px 3px 6px;
+}
+.icon-bookmark {
+    padding: 10px;
+}
